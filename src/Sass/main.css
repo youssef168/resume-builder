@@ -10,4 +10,171 @@
 body {
   font-family: 'Nunito', sans-serif;
 }
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mr-1 {
+  margin-right: 12px;
+}
+
+.t-black {
+  color: black;
+  font-weight: bolder;
+}
+
+.yel-color {
+  border: 1px solid #FFCD02;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #FFCD02;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 3.4px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.yel-color:hover {
+  background-color: transparent !important;
+  color: #FFCD02;
+}
+
+.bl-btn {
+  border: 1px solid #0D6EFD;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #0D6EFD;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 3.4px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bl-btn:hover {
+  background-color: transparent !important;
+  color: #0D6EFD;
+}
+
+@use './global-rules';
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0D6EFD;
+}
+
+.center ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-weight: bold;
+}
+
+.center ul li {
+  margin: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.center ul li:hover {
+  color: #17235f;
+}
+
+.hero {
+  margin-top: 52px;
+  width: 648px;
+  margin: 52px auto;
+}
+
+.hero .container .head h3 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.hero .container .head h5 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -19px;
+  margin-bottom: 13px;
+  font-size: 11px;
+  margin-left: -64px;
+  margin: -19px 0 11px -64px;
+}
+
+.hero .container .head h5 span {
+  margin-left: 5px;
+  color: #1A8DD1;
+}
+
+.hero .container .head h4 {
+  font-size: 17px;
+  font-weight: normal;
+  color: #999;
+}
+
+.hero .container .choices {
+  margin-top: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.cut_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=main.css.map */

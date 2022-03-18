@@ -1,0 +1,33 @@
+@use './global-rules';
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: $gradientBlue;
+}
+
+.center {
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-weight: bold;
+            li {
+                margin: 15px;
+                font-size: 18px;
+                cursor: pointer;
+                transition: $minTransition;
+
+                &:hover {
+                    color: $smoothBlack;
+                }
+            }
+    }
+}
